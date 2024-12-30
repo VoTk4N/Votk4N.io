@@ -55,7 +55,7 @@ body {
 
 /* ======MAIN======== */
 .background-img, .main-footer, .header-main {
-  background-image: url(https://raw.githubusercontent.com/VoTk4N/VoTk4N.io/main/assets/img/theme.jpg);
+  background-image: url(/assets/img/theme.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
