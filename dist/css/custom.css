@@ -1,0 +1,60 @@
+.main-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-core label {
+  display: inline;
+}
+.main-core input {
+  display: inline;
+}
+
+.form-check-input:checked {
+  background-color: #0994bc;
+}
+
+.form-control {
+  background-color: #D5D8DC;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control:checked,
+.form-control:focus {
+  border: 3px solid #0994bc;
+}
+
+.form-check-input {
+  background-color: #D5D8DC;
+}
+
+@media (max-width: 1000px) {
+  .intro-container {
+    border: none;
+    padding: 0.5em;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: center;
+    border-bottom: 5px double #0994bc;
+  }
+}
+.bg-primary {
+  background-color: #0994bc !important; /* Colore personalizzato */
+}
+
+.text-primary {
+  color: #0994bc !important; /* Colore del testo personalizzato */
+}
+
+.btn-primary {
+  background-color: #0994bc;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #061825;
+  border: 1px solid #0994bc;
+}/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,79 @@
+@use "../scss/config" as c;
+
+body {
+    font-family: "Lato", sans-serif;
+    color: c.$pearl-color;
+    font-size: calc(1em + 0.15vw);
+}
+
+
+
+/* ======HEADER======== */
+
+
+
+.Header {
+    background-color: c.$first-dark-color;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include c.box-shadow(c.$second-dark-color);
+    border-bottom:1px solid c.$pearl-color;
+    padding: 1em;
+
+
+
+    position:fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.name-logo {
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 400;
+    font-size: 2em;
+
+    color: c.$light-blue-color;
+}
+.Header {
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 1em;
+        color: c.$light-blue-color;
+    
+    
+    
+        &:hover {
+            color: c.$pearl-color;
+        
+        }
+    
+    }
+   
+    
+    
+    input {display: none;
+    }
+    
+    label {display: none;
+    }
+    
+    }
+    
+    
+
+
+
+
+
+
+

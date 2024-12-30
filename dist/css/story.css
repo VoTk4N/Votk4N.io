@@ -1,0 +1,124 @@
+
+ .core-text h3,
+ .core-text span {
+    margin-bottom: 1em;
+    color: #0994bc;
+ }
+
+
+
+h2 {
+    text-align: center;
+}
+
+
+ .cv-text h2:last-of-type {
+    margin: 2em 0 1em 0;
+ }
+
+ 
+.cv-text{
+    width: 100%;
+
+}
+
+
+
+
+.workList{
+    color: #0994bc;
+    font-size: 1em;
+    cursor: pointer;
+    border-bottom:1px solid #D5D8DC ;
+    padding-bottom: 1.5em;
+}
+
+.skillsList{
+    color: #D5D8DC;
+    font-size: 0.75em;
+    display: none;
+}
+
+
+.clickSvg{
+fill: #D5D8DC;
+width: 7%;
+margin-left: 10%;
+margin-top: 1em;
+}
+
+.querySkills {
+    display: none;
+    color: #0994bc;
+
+}
+
+
+.workList:hover,
+.workList:focus{
+    color: transparent;
+
+    .skillsList {
+        display: block;
+    }
+
+    .clickSvg {
+        display: none;
+    }
+
+    .querySkills {
+        display: block;
+    }
+}
+
+
+.workList02{
+    color: #0994bc;
+    font-size: 1em;
+    border-bottom:1px solid #D5D8DC ;
+    padding-bottom: 1.5em;
+}
+
+
+.hobby {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2em;
+
+}
+
+
+
+.hobby li{
+    list-style: none;
+    margin: 1em;
+    padding: 1.5%;
+    background-color: #034c71ad;
+    box-shadow: 0 0 25px 5px #0994bc;
+    border-radius: 2em;
+    text-align: center;
+
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 1000px) {
+   
+    .intro-container {
+        border: none;
+        padding: 0.5em;
+        font-weight: 700;
+        background-color: transparent;
+        border-radius: 0;
+        text-align: center;
+        border-bottom: 5px double #0994bc;
+
+
+     }
+
+    
+
+
+}
