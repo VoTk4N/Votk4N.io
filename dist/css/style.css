@@ -78,7 +78,7 @@ input {display: none;
 /* ======MAIN======== */
 
 .header-main {
-    background-image: url(/assets/img/theme.jpg);
+    background-image: url(https://github.com/VoTk4N/VoTk4N.io/blob/main/assets/img/theme.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -168,7 +168,7 @@ padding-bottom: 0.5em;
 /* ====PORTFOLIO===== */
 
 .main-footer {
-    background-image: url(/assets/img/theme.jpg);
+    background-image: url(https://github.com/VoTk4N/VoTk4N.io/blob/main/assets/img/theme.jpg?raw=true);
     background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
