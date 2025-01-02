@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/img/FD-favicon.png" type="image/png">
 
-    <link rel="preload" href="assets/img/theme.jpg" as="image" fetchpriority="high">
+    <link rel="preload" href="assets/img/big-theme-big-theme-1920x1078.jpg" as="image" fetchpriority="high">
 
 <!-- <link rel="stylesheet" href="dist/css/style.css">
 <link rel="stylesheet" href="dist/css/portfolio.css"> -->
@@ -55,7 +55,9 @@
 
 
     <!-- ======MAIN======== -->
-
+    <div class="loading" id="loader"> 
+        <img style="width: 100%;" loading="eager" src="assets/img/preload-porrtfolio-header.png" alt="Caricamento in corso...">
+    </div>
     <main>
         <header class="header-main">
             <div class="intro-container">
@@ -154,5 +156,7 @@
         <div class="name-logo">F<span>rancesco</span> D<span>ichiara</span></div>
 
     </footer>
+    <script> // Nascondi l'immagine di caricamento e mostra il contenuto principale dopo il caricamento della pagina 
+    window.addEventListener('load', function() { document.getElementById('loader').style.display = 'none'; document.querySelector('.content').style.display = 'block'; }); </script>
 </body>
 </html>
