@@ -15,7 +15,7 @@
 <!-- <link rel="stylesheet" href="dist/css/style.css">
 <link rel="stylesheet" href="dist/css/portfolio.css"> -->
 <link rel="stylesheet" href="dist/css/style_sass.css">
-
+<script src="/assets/js/preload.js"></script>
 
 <meta name="description" content="Portfolio di lavori, abilità e valori.">
 <meta property="og:title" content="Francesco Dichiara | Portfolio">
@@ -36,7 +36,10 @@
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-
+        <!-- ======PRELOADER======== -->
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
      <!-- ======HEADER========  -->
 
     <header class="Header">
@@ -54,10 +57,8 @@
     </header>
 
 
+
     <!-- ======MAIN======== -->
-    <div class="loading" id="loader"> 
-        <img style="width: 100%;" loading="eager" src="assets/img/preload-porrtfolio-header.png" alt="Caricamento in corso...">
-    </div>
     <main>
         <header class="header-main">
             <div class="intro-container">
@@ -154,9 +155,6 @@
             </a>
         </div>
         <div class="name-logo">F<span>rancesco</span> D<span>ichiara</span></div>
-
     </footer>
-    <script> // Nascondi l'immagine di caricamento e mostra il contenuto principale dopo il caricamento della pagina 
-    window.addEventListener('load', function() { document.getElementById('loader').style.display = 'none'; document.querySelector('.content').style.display = 'block'; }); </script>
 </body>
 </html>
